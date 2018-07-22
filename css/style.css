@@ -82,6 +82,7 @@ a.news-archive {
 /* for override existing style */
 .news-archive__row .news-archive__item .news-archive__link {
     color: #586b7b;
+    text-decoration: none;
     font-weight: 400;
     line-height: normal;
 }
