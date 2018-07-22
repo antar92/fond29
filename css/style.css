@@ -82,10 +82,13 @@ a.news-archive {
 /* for override existing style */
 .news-archive__row .news-archive__item .news-archive__link {
     color: #586b7b;
-    text-decoration: underline;
     font-weight: 400;
     line-height: normal;
 }
+.news-archive__row .news-archive__item .news-archive__link:hover {
+    text-decoration: underline;
+}
+
 
 .news-archive__row {
     list-style-type: none;
